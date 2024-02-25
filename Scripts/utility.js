@@ -10,12 +10,12 @@ function showElementById(elementId) {
   const element = document.getElementById(elementId);
   element.classList.remove("hidden");
 }
-
+// add background color by id
 function addBackgroundColorById(elementId) {
   const element = document.getElementById(elementId);
   element.classList.add("bg-orange-400");
 }
-
+// remove background color by id
 function removeBackgroundColorById(elementId) {
   const element = document.getElementById(elementId);
   element.classList.remove("bg-orange-400");
